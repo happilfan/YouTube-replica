@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Not Youtube</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./styles/general.css">
+        <link rel="stylesheet" href="./styles/header.css">
+        <link rel="stylesheet" href="./styles/sidebar.css">
+        <link rel="stylesheet" href="./styles/video.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="header-left">
+                <img class="menu" src="./overlay/hamburger-menu.svg">
+                <a href="yt.html" target="_blank"><img class="logo" src="./overlay/youtube-logo.svg"></a>
+            </div>
+            <div class="header-middle">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="./overlay/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-button">
+                    <img class="voice-icon" src="./overlay/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="header-right">
+                <div class="upload-container">
+                    <img class="upload" src="./overlay/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="apps-container">
+                    <img class="apps" src="./overlay/youtube-apps.svg">
+                    <div class="tooltip">YouTube apps</div>
+                </div>
+                <div class="notifications-container">
+                    <img class="notifications-icon" src="./overlay/notifications.svg">
+                    <div class="notifications-counter">9+</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <img class="user" src="./thumbnails/my-channel.jpeg">
+            </div>
+        </header>
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="./overlay/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="./overlay/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="./overlay/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="./overlay/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="./overlay/youtube-music.svg">
+                <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="./overlay/library.svg">
+                <div>Library</div>
+            </div>
+        </nav>
+        <!-- Content -->
+         <main>
+            <section class="video-grid">
+                <!-- Video #1 -->
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/G3e-cpL7ofc" target="_blank">
+                            <img class="thumbnail" src="./thumbnails/thumbnail-1.webp">
+                            <div class="time">6:31:15</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/@SuperSimpleDev" target="_blank"><img class="channel" src="./thumbnails/channel-1.jpeg"></a>
+                        </div>
+                        <div class="video-info">
+                            <p class="title"><a href="https://youtu.be/G3e-cpL7ofc" target="_blank">HTML & CSS Full Course - Beginner to Pro</a></p>
+                            <p class="author"><a href="https://www.youtube.com/@SuperSimpleDev" target="_blank">SuperSimpleDev</a></p>
+                            <p class="stats"><a href="https://youtu.be/G3e-cpL7ofc" target="_blank">18M views &#183; 4 years ago</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Live #2 -->
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/live/jfKfPfyJRdk" target="_blank">
+                            <img class="thumbnail" src="./thumbnails/thumbnail-2.webp">
+                            <div class="live">&#9210; LIVE</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow" target="_blank"><img class="channel" src="./thumbnails/channel-2.jpeg"></a>
+                        </div>
+                        <div class="video-info">
+                            <p class="title"><a href="https://www.youtube.com/live/jfKfPfyJRdk" target="_blank">lofi hip hop radio 📚 beats to relax/study to</a></p>
+                            <p class="author"><a href="https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow" target="_blank">Lofi Girl</a></p>
+                            <p class="stats"><a href="https://www.youtube.com/live/jfKfPfyJRdk" target="_blank">19k watching</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Promo #3 -->
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cb9_HKMmvadfIA6Wyur4P6d7GiAX_rPyVhQGegqbn2BSwkB8QASAAYPcBggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdXtt5VAqQJpyUmwxHuzPqgDBKoE7QFP0Jf0UO7pSXs9SwFLdOTl_L7E0WyQWSjxKsvDvWelEHd7xp38e9afBloVGLSHSdbJKhRKcFaK-pM6uLImve8KKP-tIDaps8v3Y5DTiLpvB5peREmkE-ySqP4-KOHe8A4z4Lqth-cFx-A0gC6BFWJkmmedWi57tjc16FddEuIXXA1rfCov_e49NE8DILk5byqlhnxGQ7sWNrbHkpy33u6zzuCBBdqzf1nKKuk594vDcVPfc4hNcCs3cX6tfxQ3xmTRNS15MbCnMJ0Z_ldkJjhTR4gUL25sWNzSzybPfDeuj0Z7fBUlhpH7i0I4Mi2IBZqCxZNWkgUNCBIwp9ro_6qM3PetAZIFCggTaAF4ptWwjRugBlWAB9WliPUaiAcBkAcCqAfywLECqAfytLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLcmU5d1lxXzZMU2OoCAHSCDYIgICAUBACGFoyCKGAgI6AgKAMOhGP0ICAgJAEgICAgICQhuADKkjZoNI1UBRYwOmdueiUkwOaCWBodHRwczovL3d3dy5oZWxzaW5raS5maS9maS9rb3VsdXR1c29oamVsbWF0L3ltcGFyaXN0b24tamEtbWFhdGFsb3VkZW4tdGFsb3VzdGlldGVlbi1rYW5kaW9oamVsbWGxCXfpGkRMsNnRyAkXyAmPAcgJkAHICcIBmAsBugthCAIQBRgWIAcoATAZQAFIAFABWGRgAGgAcAGIAQCYAQGiASkKHiAD2rgEGDIWOhQKEigwSOXYlar1HZgXgY2nPZgZANABAagCBcACAdgBAYACAYgCBboDCXZpYnJ1emFiYdALEqIMDCoKCgjowrEC1tqxAtIMAhAB2gwlCgoQgPTt0rTZ-tcBEgIBAxoNGJqCxZNWILi-ho_NBUABSgIQH5oNARKqDQJGScgNAdINhwJodHRwczovL3d3dy5oZWxzaW5raS5maS9maS9rb3VsdXR1c29oamVsbWF0L3ltcGFyaXN0b24tamEtbWFhdGFsb3VkZW4tdGFsb3VzdGlldGVlbi1rYW5kaW9oamVsbWE_bXRtX2NhbXBhaWduPUhZX1N1b21pX1lNVEFfeW1wYXJpc3Rvbl9qYV9tYWF0YWxvdWRlbl90YWxvdXN0aWV0ZWVuX2thbmRpb2hqZWxtYV9wbWF4Jm10bV9rd2Q9Jm10bV9zb3VyY2U9Z29vZ2xlJm10bV9tZWRpdW09Y3BjJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzEyNjQyNTg4MrAO6cTs0xi4E____________wGwFALAFYGAgEDQFQHYFQHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXLe_oUA50Ki66FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=Cj0KCQjwgr_NBhDFARIsAHiUWr6CCmiOsChFizeiXso1rimfmKulrgTwGkuLrjTkDWZ3q3s0rZa3C3kaAp7MEALw_wcB&num=1&cid=CAESD-D2LSzhRy_JNXs5WajMZQ&ad_cpn=%5BCPN%5D&sig=AOD64_1u0v94KqN4QtACbNE4z87KO9H5PA&ctype=110&video_id=re9wYq_6LSc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D" target="_blank">
+                            <img class="tpromo" src="./thumbnails/thumbnail-3.webp">
+                            <!-- <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cb9_HKMmvadfIA6Wyur4P6d7GiAX_rPyVhQGegqbn2BSwkB8QASAAYPcBggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdXtt5VAqQJpyUmwxHuzPqgDBKoE7QFP0Jf0UO7pSXs9SwFLdOTl_L7E0WyQWSjxKsvDvWelEHd7xp38e9afBloVGLSHSdbJKhRKcFaK-pM6uLImve8KKP-tIDaps8v3Y5DTiLpvB5peREmkE-ySqP4-KOHe8A4z4Lqth-cFx-A0gC6BFWJkmmedWi57tjc16FddEuIXXA1rfCov_e49NE8DILk5byqlhnxGQ7sWNrbHkpy33u6zzuCBBdqzf1nKKuk594vDcVPfc4hNcCs3cX6tfxQ3xmTRNS15MbCnMJ0Z_ldkJjhTR4gUL25sWNzSzybPfDeuj0Z7fBUlhpH7i0I4Mi2IBZqCxZNWkgUNCBIwp9ro_6qM3PetAZIFCggTaAF4ptWwjRugBlWAB9WliPUaiAcBkAcCqAfywLECqAfytLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLcmU5d1lxXzZMU2OoCAHSCDYIgICAUBACGFoyCKGAgI6AgKAMOhGP0ICAgJAEgICAgICQhuADKkjZoNI1UBRYwOmdueiUkwOaCWBodHRwczovL3d3dy5oZWxzaW5raS5maS9maS9rb3VsdXR1c29oamVsbWF0L3ltcGFyaXN0b24tamEtbWFhdGFsb3VkZW4tdGFsb3VzdGlldGVlbi1rYW5kaW9oamVsbWGxCXfpGkRMsNnRyAkXyAmPAcgJkAHICcIBmAsBugthCAIQBRgWIAcoATAZQAFIAFABWGRgAGgAcAGIAQCYAQGiASkKHiAD2rgEGDIWOhQKEigwSOXYlar1HZgXgY2nPZgZANABAagCBcACAdgBAYACAYgCBboDCXZpYnJ1emFiYdALEqIMDCoKCgjowrEC1tqxAtIMAhAB2gwlCgoQgPTt0rTZ-tcBEgIBAxoNGJqCxZNWILi-ho_NBUABSgIQH5oNARKqDQJGScgNAdINhwJodHRwczovL3d3dy5oZWxzaW5raS5maS9maS9rb3VsdXR1c29oamVsbWF0L3ltcGFyaXN0b24tamEtbWFhdGFsb3VkZW4tdGFsb3VzdGlldGVlbi1rYW5kaW9oamVsbWE_bXRtX2NhbXBhaWduPUhZX1N1b21pX1lNVEFfeW1wYXJpc3Rvbl9qYV9tYWF0YWxvdWRlbl90YWxvdXN0aWV0ZWVuX2thbmRpb2hqZWxtYV9wbWF4Jm10bV9rd2Q9Jm10bV9zb3VyY2U9Z29vZ2xlJm10bV9tZWRpdW09Y3BjJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzEyNjQyNTg4MrAO6cTs0xi4E____________wGwFALAFYGAgEDQFQHYFQHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXLe_oUA50Ki66FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=Cj0KCQjwgr_NBhDFARIsAHiUWr6CCmiOsChFizeiXso1rimfmKulrgTwGkuLrjTkDWZ3q3s0rZa3C3kaAp7MEALw_wcB&num=1&cid=CAESD-D2LSzhRy_JNXs5WajMZQ&ad_cpn=%5BCPN%5D&sig=AOD64_1u0v94KqN4QtACbNE4z87KO9H5PA&ctype=110&video_id=re9wYq_6LSc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D" target="_blank"><button class="button3">Learn More</button></a> -->
+                            <div class="hidden-text">Learn More</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cb9_HKMmvadfIA6Wyur4P6d7GiAX_rPyVhQGegqbn2BSwkB8QASAAYPcBggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdXtt5VAqQJpyUmwxHuzPqgDBKoE7QFP0Jf0UO7pSXs9SwFLdOTl_L7E0WyQWSjxKsvDvWelEHd7xp38e9afBloVGLSHSdbJKhRKcFaK-pM6uLImve8KKP-tIDaps8v3Y5DTiLpvB5peREmkE-ySqP4-KOHe8A4z4Lqth-cFx-A0gC6BFWJkmmedWi57tjc16FddEuIXXA1rfCov_e49NE8DILk5byqlhnxGQ7sWNrbHkpy33u6zzuCBBdqzf1nKKuk594vDcVPfc4hNcCs3cX6tfxQ3xmTRNS15MbCnMJ0Z_ldkJjhTR4gUL25sWNzSzybPfDeuj0Z7fBUlhpH7i0I4Mi2IBZqCxZNWkgUNCBIwp9ro_6qM3PetAZIFCggTaAF4ptWwjRugBlWAB9WliPUaiAcBkAcCqAfywLECqAfytLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLcmU5d1lxXzZMU2OoCAHSCDYIgICAUBACGFoyCKGAgI6AgKAMOhGP0ICAgJAEgICAgICQhuADKkjZoNI1UBRYwOmdueiUkwOaCWBodHRwczovL3d3dy5oZWxzaW5raS5maS9maS9rb3VsdXR1c29oamVsbWF0L3ltcGFyaXN0b24tamEtbWFhdGFsb3VkZW4tdGFsb3VzdGlldGVlbi1rYW5kaW9oamVsbWGxCXfpGkRMsNnRyAkXyAmPAcgJkAHICcIBmAsBugthCAIQBRgWIAcoATAZQAFIAFABWGRgAGgAcAGIAQCYAQGiASkKHiAD2rgEGDIWOhQKEigwSOXYlar1HZgXgY2nPZgZANABAagCBcACAdgBAYACAYgCBboDCXZpYnJ1emFiYdALEqIMDCoKCgjowrEC1tqxAtIMAhAB2gwlCgoQgPTt0rTZ-tcBEgIBAxoNGJqCxZNWILi-ho_NBUABSgIQH5oNARKqDQJGScgNAdINhwJodHRwczovL3d3dy5oZWxzaW5raS5maS9maS9rb3VsdXR1c29oamVsbWF0L3ltcGFyaXN0b24tamEtbWFhdGFsb3VkZW4tdGFsb3VzdGlldGVlbi1rYW5kaW9oamVsbWE_bXRtX2NhbXBhaWduPUhZX1N1b21pX1lNVEFfeW1wYXJpc3Rvbl9qYV9tYWF0YWxvdWRlbl90YWxvdXN0aWV0ZWVuX2thbmRpb2hqZWxtYV9wbWF4Jm10bV9rd2Q9Jm10bV9zb3VyY2U9Z29vZ2xlJm10bV9tZWRpdW09Y3BjJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzEyNjQyNTg4MrAO6cTs0xi4E____________wGwFALAFYGAgEDQFQHYFQHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXLe_oUA50Ki66FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=Cj0KCQjwgr_NBhDFARIsAHiUWr6CCmiOsChFizeiXso1rimfmKulrgTwGkuLrjTkDWZ3q3s0rZa3C3kaAp7MEALw_wcB&num=1&cid=CAESD-D2LSzhRy_JNXs5WajMZQ&ad_cpn=%5BCPN%5D&sig=AOD64_1u0v94KqN4QtACbNE4z87KO9H5PA&ctype=110&video_id=re9wYq_6LSc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D" target="_blank"><img class="channel" src="./thumbnails/channel-3.jpeg"></a>
+                        </div>
+                        <div class="video-info">
+                            <p class="title"><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cb9_HKMmvadfIA6Wyur4P6d7GiAX_rPyVhQGegqbn2BSwkB8QASAAYPcBggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdXtt5VAqQJpyUmwxHuzPqgDBKoE7QFP0Jf0UO7pSXs9SwFLdOTl_L7E0WyQWSjxKsvDvWelEHd7xp38e9afBloVGLSHSdbJKhRKcFaK-pM6uLImve8KKP-tIDaps8v3Y5DTiLpvB5peREmkE-ySqP4-KOHe8A4z4Lqth-cFx-A0gC6BFWJkmmedWi57tjc16FddEuIXXA1rfCov_e49NE8DILk5byqlhnxGQ7sWNrbHkpy33u6zzuCBBdqzf1nKKuk594vDcVPfc4hNcCs3cX6tfxQ3xmTRNS15MbCnMJ0Z_ldkJjhTR4gUL25sWNzSzybPfDeuj0Z7fBUlhpH7i0I4Mi2IBZqCxZNWkgUNCBIwp9ro_6qM3PetAZIFCggTaAF4ptWwjRugBlWAB9WliPUaiAcBkAcCqAfywLECqAfytLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLcmU5d1lxXzZMU2OoCAHSCDYIgICAUBACGFoyCKGAgI6AgKAMOhGP0ICAgJAEgICAgICQhuADKkjZoNI1UBRYwOmdueiUkwOaCWBodHRwczovL3d3dy5oZWxzaW5raS5maS9maS9rb3VsdXR1c29oamVsbWF0L3ltcGFyaXN0b24tamEtbWFhdGFsb3VkZW4tdGFsb3VzdGlldGVlbi1rYW5kaW9oamVsbWGxCXfpGkRMsNnRyAkXyAmPAcgJkAHICcIBmAsBugthCAIQBRgWIAcoATAZQAFIAFABWGRgAGgAcAGIAQCYAQGiASkKHiAD2rgEGDIWOhQKEigwSOXYlar1HZgXgY2nPZgZANABAagCBcACAdgBAYACAYgCBboDCXZpYnJ1emFiYdALEqIMDCoKCgjowrEC1tqxAtIMAhAB2gwlCgoQgPTt0rTZ-tcBEgIBAxoNGJqCxZNWILi-ho_NBUABSgIQH5oNARKqDQJGScgNAdINhwJodHRwczovL3d3dy5oZWxzaW5raS5maS9maS9rb3VsdXR1c29oamVsbWF0L3ltcGFyaXN0b24tamEtbWFhdGFsb3VkZW4tdGFsb3VzdGlldGVlbi1rYW5kaW9oamVsbWE_bXRtX2NhbXBhaWduPUhZX1N1b21pX1lNVEFfeW1wYXJpc3Rvbl9qYV9tYWF0YWxvdWRlbl90YWxvdXN0aWV0ZWVuX2thbmRpb2hqZWxtYV9wbWF4Jm10bV9rd2Q9Jm10bV9zb3VyY2U9Z29vZ2xlJm10bV9tZWRpdW09Y3BjJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzEyNjQyNTg4MrAO6cTs0xi4E____________wGwFALAFYGAgEDQFQHYFQHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXLe_oUA50Ki66FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=Cj0KCQjwgr_NBhDFARIsAHiUWr6CCmiOsChFizeiXso1rimfmKulrgTwGkuLrjTkDWZ3q3s0rZa3C3kaAp7MEALw_wcB&num=1&cid=CAESD-D2LSzhRy_JNXs5WajMZQ&ad_cpn=%5BCPN%5D&sig=AOD64_1u0v94KqN4QtACbNE4z87KO9H5PA&ctype=110&video_id=re9wYq_6LSc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D" target="_blank">Opiskele soveltavaa taloustiedettä</a></p>
+                            <p class="author"><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cb9_HKMmvadfIA6Wyur4P6d7GiAX_rPyVhQGegqbn2BSwkB8QASAAYPcBggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdXtt5VAqQJpyUmwxHuzPqgDBKoE7QFP0Jf0UO7pSXs9SwFLdOTl_L7E0WyQWSjxKsvDvWelEHd7xp38e9afBloVGLSHSdbJKhRKcFaK-pM6uLImve8KKP-tIDaps8v3Y5DTiLpvB5peREmkE-ySqP4-KOHe8A4z4Lqth-cFx-A0gC6BFWJkmmedWi57tjc16FddEuIXXA1rfCov_e49NE8DILk5byqlhnxGQ7sWNrbHkpy33u6zzuCBBdqzf1nKKuk594vDcVPfc4hNcCs3cX6tfxQ3xmTRNS15MbCnMJ0Z_ldkJjhTR4gUL25sWNzSzybPfDeuj0Z7fBUlhpH7i0I4Mi2IBZqCxZNWkgUNCBIwp9ro_6qM3PetAZIFCggTaAF4ptWwjRugBlWAB9WliPUaiAcBkAcCqAfywLECqAfytLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLcmU5d1lxXzZMU2OoCAHSCDYIgICAUBACGFoyCKGAgI6AgKAMOhGP0ICAgJAEgICAgICQhuADKkjZoNI1UBRYwOmdueiUkwOaCWBodHRwczovL3d3dy5oZWxzaW5raS5maS9maS9rb3VsdXR1c29oamVsbWF0L3ltcGFyaXN0b24tamEtbWFhdGFsb3VkZW4tdGFsb3VzdGlldGVlbi1rYW5kaW9oamVsbWGxCXfpGkRMsNnRyAkXyAmPAcgJkAHICcIBmAsBugthCAIQBRgWIAcoATAZQAFIAFABWGRgAGgAcAGIAQCYAQGiASkKHiAD2rgEGDIWOhQKEigwSOXYlar1HZgXgY2nPZgZANABAagCBcACAdgBAYACAYgCBboDCXZpYnJ1emFiYdALEqIMDCoKCgjowrEC1tqxAtIMAhAB2gwlCgoQgPTt0rTZ-tcBEgIBAxoNGJqCxZNWILi-ho_NBUABSgIQH5oNARKqDQJGScgNAdINhwJodHRwczovL3d3dy5oZWxzaW5raS5maS9maS9rb3VsdXR1c29oamVsbWF0L3ltcGFyaXN0b24tamEtbWFhdGFsb3VkZW4tdGFsb3VzdGlldGVlbi1rYW5kaW9oamVsbWE_bXRtX2NhbXBhaWduPUhZX1N1b21pX1lNVEFfeW1wYXJpc3Rvbl9qYV9tYWF0YWxvdWRlbl90YWxvdXN0aWV0ZWVuX2thbmRpb2hqZWxtYV9wbWF4Jm10bV9rd2Q9Jm10bV9zb3VyY2U9Z29vZ2xlJm10bV9tZWRpdW09Y3BjJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzEyNjQyNTg4MrAO6cTs0xi4E____________wGwFALAFYGAgEDQFQHYFQHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXLe_oUA50Ki66FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=Cj0KCQjwgr_NBhDFARIsAHiUWr6CCmiOsChFizeiXso1rimfmKulrgTwGkuLrjTkDWZ3q3s0rZa3C3kaAp7MEALw_wcB&num=1&cid=CAESD-D2LSzhRy_JNXs5WajMZQ&ad_cpn=%5BCPN%5D&sig=AOD64_1u0v94KqN4QtACbNE4z87KO9H5PA&ctype=110&video_id=re9wYq_6LSc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D" target="_blank">Sponsored &#183; Helsingin yliopisto</a></p>
+                        </div>
+                    </div>
+                    <div class="promo-buttons">
+                            <a href="https://youtu.be/re9wYq_6LSc" target="_blank"><button class="button1">Watch</button></a>
+                            <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cb9_HKMmvadfIA6Wyur4P6d7GiAX_rPyVhQGegqbn2BSwkB8QASAAYPcBggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdXtt5VAqQJpyUmwxHuzPqgDBKoE7QFP0Jf0UO7pSXs9SwFLdOTl_L7E0WyQWSjxKsvDvWelEHd7xp38e9afBloVGLSHSdbJKhRKcFaK-pM6uLImve8KKP-tIDaps8v3Y5DTiLpvB5peREmkE-ySqP4-KOHe8A4z4Lqth-cFx-A0gC6BFWJkmmedWi57tjc16FddEuIXXA1rfCov_e49NE8DILk5byqlhnxGQ7sWNrbHkpy33u6zzuCBBdqzf1nKKuk594vDcVPfc4hNcCs3cX6tfxQ3xmTRNS15MbCnMJ0Z_ldkJjhTR4gUL25sWNzSzybPfDeuj0Z7fBUlhpH7i0I4Mi2IBZqCxZNWkgUNCBIwp9ro_6qM3PetAZIFCggTaAF4ptWwjRugBlWAB9WliPUaiAcBkAcCqAfywLECqAfytLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLcmU5d1lxXzZMU2OoCAHSCDYIgICAUBACGFoyCKGAgI6AgKAMOhGP0ICAgJAEgICAgICQhuADKkjZoNI1UBRYwOmdueiUkwOaCWBodHRwczovL3d3dy5oZWxzaW5raS5maS9maS9rb3VsdXR1c29oamVsbWF0L3ltcGFyaXN0b24tamEtbWFhdGFsb3VkZW4tdGFsb3VzdGlldGVlbi1rYW5kaW9oamVsbWGxCXfpGkRMsNnRyAkXyAmPAcgJkAHICcIBmAsBugthCAIQBRgWIAcoATAZQAFIAFABWGRgAGgAcAGIAQCYAQGiASkKHiAD2rgEGDIWOhQKEigwSOXYlar1HZgXgY2nPZgZANABAagCBcACAdgBAYACAYgCBboDCXZpYnJ1emFiYdALEqIMDCoKCgjowrEC1tqxAtIMAhAB2gwlCgoQgPTt0rTZ-tcBEgIBAxoNGJqCxZNWILi-ho_NBUABSgIQH5oNARKqDQJGScgNAdINhwJodHRwczovL3d3dy5oZWxzaW5raS5maS9maS9rb3VsdXR1c29oamVsbWF0L3ltcGFyaXN0b24tamEtbWFhdGFsb3VkZW4tdGFsb3VzdGlldGVlbi1rYW5kaW9oamVsbWE_bXRtX2NhbXBhaWduPUhZX1N1b21pX1lNVEFfeW1wYXJpc3Rvbl9qYV9tYWF0YWxvdWRlbl90YWxvdXN0aWV0ZWVuX2thbmRpb2hqZWxtYV9wbWF4Jm10bV9rd2Q9Jm10bV9zb3VyY2U9Z29vZ2xlJm10bV9tZWRpdW09Y3BjJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzEyNjQyNTg4MrAO6cTs0xi4E____________wGwFALAFYGAgEDQFQHYFQHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXLe_oUA50Ki66FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=Cj0KCQjwgr_NBhDFARIsAHiUWr6CCmiOsChFizeiXso1rimfmKulrgTwGkuLrjTkDWZ3q3s0rZa3C3kaAp7MEALw_wcB&num=1&cid=CAESD-D2LSzhRy_JNXs5WajMZQ&ad_cpn=%5BCPN%5D&sig=AOD64_1u0v94KqN4QtACbNE4z87KO9H5PA&ctype=110&video_id=re9wYq_6LSc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D" target="_blank"><button class="button2">Visit Site</button></a>
+                    </div>
+                </div>
+                <!-- Video #4 -->
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/bUivl64IQkc" target="_blank">
+                            <img class="thumbnail" src="./thumbnails/thumbnail-4.webp">
+                            <div class="time">2:29:59</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/@ADHDCouple" target="_blank"><img class="channel" src="./thumbnails/channel-4.jpeg"></a>
+                        </div>
+                        <div class="video-info">
+                            <p class="title"><a href="https://youtu.be/bUivl64IQkc" target="_blank">Pomodoro Timer 4x30min | Kitty Day Care 🐈 Lo-fi beats | ADHD focus</a></p>
+                            <p class="author"><a href="https://www.youtube.com/@ADHDCouple" target="_blank">ADHD Couple</a></p>
+                            <p class="stats"><a href="https://youtu.be/bUivl64IQkc" target="_blank">1M &#183; 1 year ago</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video #5 -->
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/2IV3bZUk8p8" target="_blank">
+                            <img class="thumbnail" src="./thumbnails/thumbnail-5.webp">
+                        <div class="time">
+                            6:21
+                        </div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/@this.science" target="_blank"><img class="channel" src="./thumbnails/channel-5.jpeg"></a>
+                        </div>
+                        <div class="video-info">
+                            <p class="title"><a href="https://youtu.be/2IV3bZUk8p8" target="_blank">The Science of Procrastination (and how to stop)</a></p>
+                            <p class="author"><a href="https://www.youtube.com/@this.science" target="_blank">This.</a></p>
+                            <p class="stats"><a href="https://youtu.be/2IV3bZUk8p8" target="_blank">892k views &#183; 9 months ago</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video #6 -->
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://youtu.be/e9dZQelULDk" target="_blank">
+                            <img class="thumbnail" src="./thumbnails/thumbnail-6.webp">
+                            <div class="time">4:17</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/@steve_cutts" target="_blank"><img class="channel" src="./thumbnails/channel-6.jpeg"></a>
+                        </div>
+                        <div class="video-info">
+                            <p class="title"><a href="https://youtu.be/e9dZQelULDk" target="_blank">Happiness</a></p>
+                            <p class="author"><a href="https://www.youtube.com/@steve_cutts" target="_blank">Steve Cutts</a></p>
+                            <p class="stats"><a href="https://youtu.be/e9dZQelULDk" target="_blank">57m views &#183; 8 years ago</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>  
+    </body>
+</html>
